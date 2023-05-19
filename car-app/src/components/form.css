@@ -1,0 +1,70 @@
+.formInput {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .radio {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  
+  .radio label {
+    margin-right: 10px;
+  }
+  
+  .checkbox label {
+    display: block;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 5px;
+  }
+  
+  button[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .formInput {
+      max-width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    input[type="text"],
+    input[type="number"],
+    textarea,
+    select {
+      font-size: 14px;
+    }
+  
+    button[type="submit"] {
+      font-size: 14px;
+    }
+  }
+  
